@@ -1,7 +1,7 @@
 {
   "schemaVersion": "1.5.0",
   "methodologyVersion": "1.6.0",
-  "updatedAt": "2026-11-01T18:24:15.191Z",
+  "updatedAt": "2026-11-01T19:06:40.741Z",
   "updateStatus": "partial",
   "sources": {
     "solanaRpc": {
@@ -35,36 +35,36 @@
       "name": "Coinbase Exchange SOL-USD",
       "url": "https://api.exchange.coinbase.com/products/SOL-USD/candles",
       "status": "fresh",
-      "lastAttemptAt": "2026-11-01T13:05:22.103Z",
-      "lastSuccessAt": "2026-11-01T13:05:22.103Z",
-      "nextDueAt": "2026-11-01T19:05:22.103Z",
+      "lastAttemptAt": "2026-11-01T19:06:39.120Z",
+      "lastSuccessAt": "2026-11-01T19:06:39.120Z",
+      "nextDueAt": "2026-11-02T01:06:39.120Z",
       "dataThrough": "2026-10-31"
     },
     "defiLlamaTvl": {
       "name": "DefiLlama Chain TVL",
       "url": "https://api.llama.fi/v2/historicalChainTvl/Solana",
       "status": "fresh",
-      "lastAttemptAt": "2026-11-01T13:05:22.103Z",
-      "lastSuccessAt": "2026-11-01T13:05:22.103Z",
-      "nextDueAt": "2026-11-01T19:05:22.103Z",
+      "lastAttemptAt": "2026-11-01T19:06:39.120Z",
+      "lastSuccessAt": "2026-11-01T19:06:39.120Z",
+      "nextDueAt": "2026-11-02T01:06:39.120Z",
       "dataThrough": "2026-10-31"
     },
     "defiLlamaStablecoins": {
       "name": "DefiLlama Stablecoins",
       "url": "https://stablecoins.llama.fi/stablecoincharts/Solana",
       "status": "fresh",
-      "lastAttemptAt": "2026-11-01T13:05:22.103Z",
-      "lastSuccessAt": "2026-11-01T13:05:22.103Z",
-      "nextDueAt": "2026-11-01T19:05:22.103Z",
+      "lastAttemptAt": "2026-11-01T19:06:39.120Z",
+      "lastSuccessAt": "2026-11-01T19:06:39.120Z",
+      "nextDueAt": "2026-11-02T01:06:39.120Z",
       "dataThrough": "2026-10-31"
     },
     "defiLlamaDex": {
       "name": "DefiLlama DEX Dimensions",
       "url": "https://api.llama.fi/overview/dexs/Solana?excludeTotalDataChart=false&excludeTotalDataChartBreakdown=true",
       "status": "fresh",
-      "lastAttemptAt": "2026-11-01T13:05:22.103Z",
-      "lastSuccessAt": "2026-11-01T13:05:22.103Z",
-      "nextDueAt": "2026-11-01T19:05:22.103Z",
+      "lastAttemptAt": "2026-11-01T19:06:39.120Z",
+      "lastSuccessAt": "2026-11-01T19:06:39.120Z",
+      "nextDueAt": "2026-11-02T01:06:39.120Z",
       "dataThrough": "2026-10-31"
     },
     "solanaData": {
@@ -93,10 +93,10 @@
       "name": "Tokens.xyz Curated Markets",
       "url": "https://www.tokens.xyz/api/v1/assets/curated?groupBy=asset&limit=500&primaryVariantStrategy=liquidity",
       "status": "fresh",
-      "lastAttemptAt": "2026-11-01T13:05:22.103Z",
-      "lastSuccessAt": "2026-11-01T13:05:22.103Z",
-      "nextDueAt": "2026-11-01T19:05:22.103Z",
-      "dataThrough": "2026-11-01T13:05:22.103Z"
+      "lastAttemptAt": "2026-11-01T19:06:39.120Z",
+      "lastSuccessAt": "2026-11-01T19:06:39.120Z",
+      "nextDueAt": "2026-11-02T01:06:39.120Z",
+      "dataThrough": "2026-11-01T19:06:39.120Z"
     },
     "solanaNews": {
       "name": "Solana News RSS",
@@ -137,9 +137,9 @@
       "name": "Agave Releases",
       "url": "https://api.github.com/repos/anza-xyz/agave/releases",
       "status": "fresh",
-      "lastAttemptAt": "2026-11-01T13:05:22.103Z",
-      "lastSuccessAt": "2026-11-01T13:05:22.103Z",
-      "nextDueAt": "2026-11-01T19:05:22.103Z",
+      "lastAttemptAt": "2026-11-01T19:06:39.120Z",
+      "lastSuccessAt": "2026-11-01T19:06:39.120Z",
+      "nextDueAt": "2026-11-02T01:06:39.120Z",
       "dataThrough": "2026-10-28T20:35:10.000Z"
     }
   },
@@ -20200,7 +20200,7 @@
         },
         {
           "date": "2026-10-13",
-          "dailyVolumeUsd": 2495452464.44
+          "dailyVolumeUsd": 2495462317.44
         },
         {
           "date": "2026-10-14",
@@ -26683,7 +26683,7 @@
   "ecosystem": {
     "tokenizedAssets": {
       "status": "fresh",
-      "observedAt": "2026-11-01T13:05:22.103Z",
+      "observedAt": "2026-11-01T19:06:39.120Z",
       "sourceIds": [
         "tokensXyz"
       ],
@@ -26700,15 +26700,15 @@
         "birdeye",
         "clickhouse_trades"
       ],
-      "totalSpotVolume30dUsd": 3828959052.109388,
-      "equitySpotVolume30dUsd": 3318946005.1435833,
+      "totalSpotVolume30dUsd": 3883501784.440468,
+      "equitySpotVolume30dUsd": 3373097004.076836,
       "indexedAssetCount": 445,
       "indexedEquityCount": 399,
-      "coveredAssetCount": 367,
+      "coveredAssetCount": 369,
       "coveredEquityCount": 343,
       "provenanceCoverage": {
         "rwaXyzExcludedCount": 9,
-        "unknownSourceExcludedCount": 13,
+        "unknownSourceExcludedCount": 11,
         "missingVolumeExcludedCount": 56
       },
       "listCoverage": {
@@ -28616,6 +28616,15 @@
           "indexedEquityCount": 399,
           "coveredAssetCount": 367,
           "coveredEquityCount": 343
+        },
+        {
+          "observedAt": "2026-11-01T19:06:39.120Z",
+          "totalSpotVolume30dUsd": 3883501784.440468,
+          "equitySpotVolume30dUsd": 3373097004.076836,
+          "indexedAssetCount": 445,
+          "indexedEquityCount": 399,
+          "coveredAssetCount": 369,
+          "coveredEquityCount": 343
         }
       ],
       "categoryBreakdown": [
@@ -28623,19 +28632,19 @@
           "id": "equities",
           "indexedAssetCount": 399,
           "coveredAssetCount": 343,
-          "spotVolume30dUsd": 3318946005.1435833
+          "spotVolume30dUsd": 3373097004.076836
         },
         {
           "id": "funds",
           "indexedAssetCount": 25,
-          "coveredAssetCount": 15,
-          "spotVolume30dUsd": 452650265.02646154
+          "coveredAssetCount": 17,
+          "spotVolume30dUsd": 452906821.40703696
         },
         {
           "id": "commodities",
           "indexedAssetCount": 5,
           "coveredAssetCount": 5,
-          "spotVolume30dUsd": 44269938.81994191
+          "spotVolume30dUsd": 44405115.83719235
         },
         {
           "id": "other-rwa",
@@ -28651,7 +28660,7 @@
           "name": "SpaceX",
           "symbol": "SPCX",
           "categoryGroup": "equities",
-          "spotVolume30dUsd": 914395091.0718943,
+          "spotVolume30dUsd": 960808103.289946,
           "metricsSource": "birdeye"
         },
         {
@@ -28706,7 +28715,7 @@
           "symbol": "MU",
           "categoryGroup": "equities",
           "spotVolume30dUsd": 134222486.23402593,
-          "metricsSource": "birdeye"
+          "metricsSource": "clickhouse_trades"
         },
         {
           "rank": 8,
@@ -28724,15 +28733,15 @@
           "symbol": "SKHY",
           "categoryGroup": "equities",
           "spotVolume30dUsd": 79674141.30028407,
-          "metricsSource": "birdeye"
+          "metricsSource": "clickhouse_trades"
         },
         {
           "rank": 10,
-          "assetId": "apple",
-          "name": "Apple",
-          "symbol": "AAPL",
+          "assetId": "pre-pren1fvf",
+          "name": "Anthropic",
+          "symbol": "ANTHROPIC",
           "categoryGroup": "equities",
-          "spotVolume30dUsd": 74285918.87817092,
+          "spotVolume30dUsd": 75012198.0778261,
           "metricsSource": "birdeye"
         }
       ]
@@ -30227,7 +30236,7 @@
     },
     "agaveReleases": {
       "status": "fresh",
-      "observedAt": "2026-11-01T13:05:22.103Z",
+      "observedAt": "2026-11-01T19:06:39.120Z",
       "sourceIds": [
         "agaveReleases"
       ],
