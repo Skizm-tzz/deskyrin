@@ -1,6 +1,6 @@
 # Deskyrin
 
-Updated: **2026-11-07T15:52:50.888Z**
+Updated: **2026-11-07T20:07:09.355Z**
 
 Update status: **partial**
 
@@ -10,11 +10,11 @@ All current values are generated deterministically from the cited public sources
 
 | Metric | Value | Observation | Status |
 |---|---:|---|---|
-| TPS (all transactions) | 1,676.86 | 2026-11-07T15:52:06.465Z | Fresh |
-| Non-vote TPS | 1,676.86 | 2026-11-07T15:52:06.465Z | Fresh |
-| Slot time | 214.9 ms | 2026-11-07T15:52:06.465Z | Fresh |
-| Block height | 444,587,997 | 2026-11-07T15:52:06.465Z | Fresh |
-| Epoch progress | 2.17% (epoch 1080) | 2026-11-07T15:52:06.465Z | Fresh |
+| TPS (all transactions) | 1,647.67 | 2026-11-07T20:06:28.832Z | Fresh |
+| Non-vote TPS | 1,647.67 | 2026-11-07T20:06:28.832Z | Fresh |
+| Slot time | 214.59 ms | 2026-11-07T20:06:28.832Z | Fresh |
+| Block height | 444,658,948 | 2026-11-07T20:06:28.832Z | Fresh |
+| Epoch progress | 18.62% (epoch 1080) | 2026-11-07T20:06:28.832Z | Fresh |
 
 ## Validator Status
 
@@ -73,11 +73,11 @@ A row means the commission differed between two successful validator snapshots. 
 
 | Indicator | Value | Data through | Status |
 |---|---:|---|---|
-| SOL price | $89.3 (-1.33% / 24h) | 2026-11-07T15:50:21.000Z | Fresh |
+| SOL price | $89.49 (-0.85% / 24h) | 2026-11-07T20:05:28.000Z | Fresh |
 | Stablecoin supply (USD-equivalent circulating) | $15.03B | 2026-11-06 | Fresh |
 | DEX volume (completed UTC day) | $1.48B | 2026-11-06 | Fresh |
 | Real Economic Value (REV) | 6,839.53 SOL | 2026-10-23 | Stale since 2026-10-27T00:43:45.417Z |
-| Median transaction fee | 5,150 lamports | 2026-11-07T15:52:06.465Z | Fresh |
+| Median transaction fee | 5,500 lamports | 2026-11-07T20:06:28.832Z | Fresh |
 | TVL alert input | $5.26B (-4.93% day/day) | 2026-11-06 | Fresh |
 
 REV components for 2026-10-23: transaction fees 5,481.54 SOL (median of Allium and Dune) + gross Jito tips 1,357.98 SOL.
@@ -88,7 +88,7 @@ These comparison observations are retained separately and are not averaged into 
 
 | Series | Value | Data through | Status |
 |---|---:|---|---|
-| CoinGecko keyless comparison | $89.23 | 2026-11-07T15:50:51.000Z | Fresh |
+| CoinGecko keyless comparison | $89.56 | 2026-11-07T20:06:06.000Z | Fresh |
 | Coinbase Exchange SOL-USD daily close | $90.02 | 2026-11-06 | Fresh |
 
 ## Provider Comparison Evidence
@@ -206,7 +206,7 @@ Status: **Fresh**. Published releases and prereleases are kept separate from upc
 
 ## Network Observability
 
-Official Solana Status: **All Systems Operational** (none). Observed 2026-11-07T15:52:06.465Z; provider page updated 2026-11-07T15:44:43.741Z.
+Official Solana Status: **All Systems Operational** (none). Observed 2026-11-07T20:06:28.832Z; provider page updated 2026-11-07T19:59:43.950Z.
 
 8 of 8 retained components report operational.
 
@@ -234,29 +234,29 @@ No active warning met its full threshold and freshness requirements.
 
 | Check | State | Current / reason |
 |---|---|---|
-| tps-change | normal | +8.48% |
-| slow-slot-time | normal | +0.11% |
+| tps-change | normal | -11.73% |
+| slow-slot-time | normal | -0.29% |
 | high-validator-delinquency | normal | 0.15% |
 | large-tvl-change | normal | -4.93% |
-| large-sol-price-move | normal | -1.33% |
+| large-sol-price-move | normal | -0.85% |
 
 ## Data Sources and Freshness
 
 | Source | State | Last success | Data through |
 |---|---|---|---|
-| [Solana JSON-RPC](https://api.mainnet-beta.solana.com) | fresh | 2026-11-07T15:52:06.465Z | 2026-11-07T15:52:06.465Z |
-| [DefiLlama Coins API](https://coins.llama.fi/prices/current/coingecko:solana) | fresh | 2026-11-07T15:52:06.465Z | 2026-11-07T15:50:21.000Z |
-| [CoinGecko Keyless API](https://api.coingecko.com/api/v3/simple/price) | fresh | 2026-11-07T15:52:06.465Z | 2026-11-07T15:50:51.000Z |
+| [Solana JSON-RPC](https://api.mainnet-beta.solana.com) | fresh | 2026-11-07T20:06:28.832Z | 2026-11-07T20:06:28.832Z |
+| [DefiLlama Coins API](https://coins.llama.fi/prices/current/coingecko:solana) | fresh | 2026-11-07T20:06:28.832Z | 2026-11-07T20:05:28.000Z |
+| [CoinGecko Keyless API](https://api.coingecko.com/api/v3/simple/price) | fresh | 2026-11-07T20:06:28.832Z | 2026-11-07T20:06:06.000Z |
 | [Coinbase Exchange SOL-USD](https://api.exchange.coinbase.com/products/SOL-USD/candles) | fresh | 2026-11-07T15:52:06.465Z | 2026-11-06 |
 | [DefiLlama Chain TVL](https://api.llama.fi/v2/historicalChainTvl/Solana) | fresh | 2026-11-07T15:52:06.465Z | 2026-11-06 |
 | [DefiLlama Stablecoins](https://stablecoins.llama.fi/stablecoincharts/Solana) | fresh | 2026-11-07T15:52:06.465Z | 2026-11-06 |
 | [DefiLlama DEX Dimensions](https://api.llama.fi/overview/dexs/Solana?excludeTotalDataChart=false&excludeTotalDataChartBreakdown=true) | fresh | 2026-11-07T15:52:06.465Z | 2026-11-06 |
 | [Solana Foundation Data](https://solana.com/api/databricks/data?days=120) | stale | 2026-10-28T07:17:38.597Z | 2026-10-28T01:15:14.140Z |
-| [Jito Daily MEV Rewards](https://kobe.mainnet.jito.network/api/v1/daily_mev_rewards) | fresh | 2026-11-07T15:52:06.465Z | 2026-11-06 |
+| [Jito Daily MEV Rewards](https://kobe.mainnet.jito.network/api/v1/daily_mev_rewards) | fresh | 2026-11-07T20:06:28.832Z | 2026-11-06 |
 | [Tokens.xyz Curated Markets](https://www.tokens.xyz/api/v1/assets/curated?groupBy=asset&limit=500&primaryVariantStrategy=liquidity) | fresh | 2026-11-07T15:52:06.465Z | 2026-11-07T15:52:06.465Z |
 | [Solana News RSS](https://solana.com/news/rss.xml) | stale | 2026-10-28T07:17:38.597Z | 2026-10-26T10:00:00.000Z |
 | [Solana Upgrades Hub](https://solana.com/upgrades) | stale | 2026-10-09T13:40:07.744Z | 2026-10-09T13:40:07.744Z |
-| [Solana Status](https://status.solana.com/api/v2/summary.json) | fresh | 2026-11-07T15:52:06.465Z | 2026-11-07T15:52:06.465Z |
+| [Solana Status](https://status.solana.com/api/v2/summary.json) | fresh | 2026-11-07T20:06:28.832Z | 2026-11-07T20:06:28.832Z |
 | [Agave Releases](https://api.github.com/repos/anza-xyz/agave/releases) | fresh | 2026-11-07T15:52:06.465Z | 2026-11-06T08:17:22.000Z |
 
 Detailed definitions, windows, aggregation rules, and limitations are documented in [`methodology.md`](./methodology.md).
